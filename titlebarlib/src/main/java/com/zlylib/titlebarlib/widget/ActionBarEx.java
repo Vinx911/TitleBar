@@ -5,6 +5,12 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.support.annotation.CallSuper;
+import android.support.annotation.ColorInt;
+import android.support.annotation.IdRes;
+import android.support.annotation.IntDef;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -15,12 +21,6 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import androidx.annotation.CallSuper;
-import androidx.annotation.ColorInt;
-import androidx.annotation.IdRes;
-import androidx.annotation.IntDef;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.zlylib.titlebarlib.R;
 

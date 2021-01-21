@@ -2,6 +2,8 @@ package com.zlylib.titlebarlib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
@@ -11,9 +13,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import androidx.annotation.Nullable;
-import androidx.core.content.ContextCompat;
 
 import com.zlylib.titlebarlib.widget.ActionBarEx;
 
